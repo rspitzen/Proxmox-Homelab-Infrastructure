@@ -2,19 +2,17 @@
 
 ## Objective
 
-This project focused on designing and operating a self-hosted virtualization platform using Proxmox VE to support multiple application stacks and cybersecurity projects.
-The goal was to build a flexible, low-overhead environment capable of running isolated workloads while maintaining strong operational control, scalability, and security awareness.
+This project documents the design and operation of a self-hosted virtualization platform using Proxmox VE to support multiple application stacks and cybersecurity projects. The platform is designed to be flexible and low-overhead, capable of running isolated workloads while maintaining strong operational control, scalability, and security awareness.
 
-The environment serves as a foundational platform for hosting containerized workloads and future security labs, while demonstrating practical experience with virtualization, containerization, and system architecture.
+The environment serves as a foundational platform for hosting containerized workloads and future security labs, while demonstrating practical experience in virtualization, containerization, and system architecture.
 
-### Skills Learned
+### Skills Demonstrated
 
  - Practical experience with enterprise-style virtualization using Proxmox VE
- - Understanding of workload isolation using LXC containers versus full virtual machines
+ - Workload isolation using LXC containers versus full virtual machines
  - Resource management and capacity planning (CPU, memory, storage)
  - Designing infrastructure to support multiple independent projects
  - Evaluating security and performance tradeoffs in virtualization choices
- - Operational mindset for maintaining long-running infrastructure
 
 ### Tools Used
 
@@ -23,7 +21,7 @@ The environment serves as a foundational platform for hosting containerized work
  - Linux-based operating systems (Ubuntu/Debian)
  - Web-based management interfaces and CLI tools
 
-## Steps
+## Architectural Artifacts & Observations
 
 The following artifacts document the operational state and architectural decisions of the Proxmox-based infrastructure. Screenshots are selected to demonstrate system design, workload isolation, and real-world operation rather than step-by-step configuration.
 
